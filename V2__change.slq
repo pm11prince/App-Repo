@@ -6,3 +6,4 @@ CREATE TABLE `MigrationType` (
   `TypeName` VARCHAR(100) NULL,
   PRIMARY KEY (`MigrationTypeId`),
   UNIQUE INDEX `MigrationTypeId_UNIQUE` (`MigrationTypeId` ASC));
+  
